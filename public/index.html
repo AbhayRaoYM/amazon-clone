@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <a id="top"></a>
+      <div class="navbar">
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+
+        <div class="nav-address border">
+          <p class="address1">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="address2">India</p>
+            <!-- to make this icon and para on same line, we use flex -->
+          </div>
+        </div>
+
+        <div class="nav-search">
+          <select class="search-select">
+            <option>All</option>
+          </select>
+          <input placeholder="Search Amazon" class="search-input"/>
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div class="nav-flag border">
+          <div class="flag-img">
+            <img src="images/united-states.png" width="20" height="20" />
+          </div>
+          <p class="nav2">EN</p>
+          <div class="acc-icon">
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+
+        <div class="nav-signin border">
+          <p><span>Hello,sign in</span></p>
+          <div class="acc-section">
+            <p class="nav2">Account & Lists</p>
+            <div class="acc-icon">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-return border">
+          <p><span>Returns</span></p>
+          <p class="nav2">& Orders</p>
+        </div>
+
+        <div class="nav-cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="nav2">Cart</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-all border">
+          <i class="fa-solid fa-bars"></i>
+          <p class="nav2">All</p>
+        </div>
+
+        <div class="panel-ops">
+          <p>Today's Deals</p>
+          <p>Prime Video</p>
+          <p>Registry</p>
+          <p>Customer Service</p>
+          <p>Gift Cards</p>
+          <p>Sell</p>
+        </div>
+
+        <div class="panel-deals border">
+          <p>Shop deals in Electronics</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-section">
+      <div class="hero-msg">
+        <p>
+          You are on amazon.com. You can also shop on Amazon India for millions
+          of products with fast local delivery.
+          <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in"
+            >Click here to go to amazon.in</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="shop-section">
+      <div class="box box1">
+        <div class="box-content">
+          <h2>Get your game on</h2>
+          <div
+            class="bigbox-img"
+            style="background-image: url('images/box5.jpg')"
+          ></div>
+          <p>Shop gaming</p>
+        </div>
+      </div>
+
+      <div class="box box2">
+        <div class="box-content">
+          <h2>Shop for your home essentials</h2>
+        </div>
+        <div class="mini-box-container box-content">
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box1.jpg')"
+            ></div>
+            <span>Cleaning Tools</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box2.jpg')"
+            ></div>
+            <span>Home Storage</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box3.jpg')"
+            ></div>
+            <span>Home Decor</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box4.jpg')"
+            ></div>
+            <span>Bedding</span>
+          </div>
+        </div>
+        <div class="box-content mini-box-end">
+          <p>Discover more in Home</p>
+        </div>
+      </div>
+
+      <div class="box box3">
+        <div class="box-content">
+          <h2>Top categories in Kitchen Appliances</h2>
+        </div>
+        <div class="mini-box-container box-content">
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box6.jpg')"
+            ></div>
+            <span>Cooker</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box7.jpg')"
+            ></div>
+            <span>Coffee</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box8.jpg')"
+            ></div>
+            <span>Pots and Pans</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box9.jpg')"
+            ></div>
+            <span>Kettles</span>
+          </div>
+        </div>
+        <div class="box-content mini-box-end">
+          <p>Explore all products in Kitchen</p>
+        </div>
+      </div>
+
+      <div class="box box4">
+        <div class="box-content">
+          <h2>Save big on school essentials</h2>
+        </div>
+        <div class="mini-box-container box-content">
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box10.jpg')"
+            ></div>
+            <span>Backpacks</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box11.jpg')"
+            ></div>
+            <span>Electronics</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box12.jpg')"
+            ></div>
+            <span>Stationery</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box13.jpg')"
+            ></div>
+            <span>Fashion</span>
+          </div>
+        </div>
+        <div class="box-content mini-box-end">
+          <p>See More</p>
+        </div>
+      </div>
+
+      <div class="box box5">
+        <div class="box-content">
+          <h2>New home arrivals under $50</h2>
+        </div>
+        <div class="mini-box-container box-content">
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box14.jpg')"
+            ></div>
+            <span>Kitchen & Dining</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box15.jpg')"
+            ></div>
+            <span>Home Improvement</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box16.jpg')"
+            ></div>
+            <span>Decor</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box17.jpg')"
+            ></div>
+            <span>Beading & Bath</span>
+          </div>
+        </div>
+        <div class="box-content mini-box-end">
+          <p>Shop the latest from Home</p>
+        </div>
+      </div>
+
+      <div class="box box6">
+        <div class="box-content">
+          <h2>Deals for every grade</h2>
+          <div
+            class="bigbox-img"
+            style="background-image: url('images/box18.jpg')"
+          ></div>
+          <p>See all deals</p>
+        </div>
+      </div>
+
+      <div class="box box7">
+        <div class="box-content">
+          <h2>Shop Fashion for less</h2>
+        </div>
+        <div class="mini-box-container box-content">
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box19.jpg')"
+            ></div>
+            <span>Jeans under $50</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box20.jpg')"
+            ></div>
+            <span>Tops under $25</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box21.jpg')"
+            ></div>
+            <span>Dresses under $30</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box22.jpg')"
+            ></div>
+            <span>Shoes under $50</span>
+          </div>
+        </div>
+        <div class="box-content mini-box-end-single">
+          <p>See all trends</p>
+        </div>
+      </div>
+
+      <div class="box box8">
+        <div class="box-content">
+          <h2>Gear up to get fit</h2>
+        </div>
+        <div class="mini-box-container box-content">
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box23.jpg')"
+            ></div>
+            <span>Clothing</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box24.jpg')"
+            ></div>
+            <span>Trackers</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box25.jpg')"
+            ></div>
+            <span>Equipment</span>
+          </div>
+          <div class="mini-box">
+            <div
+              class="mini-box-img"
+              style="background-image: url('images/box26.jpg')"
+            ></div>
+            <span>Deals</span>
+          </div>
+        </div>
+        <div class="box-content mini-box-end-single">
+          <p>Discover More</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider-box">
+          <h2>Top picks for India</h2>
+          <div class="slider-container" id="slider-container">
+            <div class="slide"><img src="images/watch1.jpg" alt="Watch 1" /></div>
+            <div class="slide"><img src="images/watch2.jpg" /></div>
+            <div class="slide"><img src="images/ro.jpg" /></div>
+            <div class="slide"><img src="images/book.jpg" /></div>
+            <div class="slide"><img src="images/strap.jpg" /></div>
+            <div class="slide"><img src="images/heater.jpg" /></div>
+            <div class="slide"><img src="images/pen.jpg" /></div>
+            <div class="slide"><img src="images/ro.jpg" /></div>
+            <div class="slide"><img src="images/book.jpg" /></div>
+            <div class="slide"><img src="images/strap.jpg" /></div>
+            <div class="slide"><img src="images/heater.jpg" /></div>
+            <div class="slide"><img src="images/watch2.jpg" /></div>
+            <div class="slide"><img src="images/watch1.jpg" /></div>
+          </div>
+  
+          <button class="prev" onclick="scrollSlider(-300)">&#10094;</button>
+          <button class="next" onclick="scrollSlider(300)">&#10095;</button>
+        </div>
+      </div>
+
+    <footer>
+      <a href="#top">
+        <div class="foot-panel1">Back to Top</div>
+      </a>
+
+      <div class="foot-panel2">
+        <ul>
+          <p>Get to Know Us</p>
+          <a>Careers</a>
+          <a>Blog</a>
+          <a>About Amazon</a>
+          <a>Investor Relations</a>
+          <a>Amazon Devices</a>
+          <a>Amazon Science</a>
+        </ul>
+        <ul>
+          <p>Make Money with Us</p>
+          <a>Sell products on Amazon</a>
+          <a>Sell on Amazon Business</a>
+          <a>Sell apps on Amazon</a>
+          <a>Become an Affiliate</a>
+          <a>Advertise Your Products</a>
+          <a>Self-Publish with Us</a>
+          <a>Host an Amazon Hub</a>
+          <a>See More Make Money<br />with Us</a>
+        </ul>
+        <ul>
+          <p>Amazon Payment Products</p>
+          <a>Amazon Business Card</a>
+          <a>Shop with Points</a>
+          <a>Reload Your Balance</a>
+          <a>Amazon Currency Converter</a>
+        </ul>
+        <ul>
+          <p>Let Us Help You</p>
+          <a>Amazon and COVID-19</a>
+          <a>Your Account</a>
+          <a>Your Orders</a>
+          <a>Shipping Rates &<br />Policies</a>
+          <a>Returns &<br />Replacements</a>
+          <a>Manage Your<br />Content and Devices</a>
+          <a>Help</a>
+        </ul>
+      </div>
+
+      <div class="foot-panel3">
+        <div class="logo"></div>
+      </div>
+
+      <div class="foot-panel4">
+        <div class="services">
+          <ul class="services-content">
+            <h5>Amazon Music</h5>
+            <a>Stream millions<br />of songs</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Amazon Ads</h5>
+            <a>Reach customers<br />wherever they<br />spend their time</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>6pm</h5>
+            <a>Score deals<br />on fashion brands</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>AbeBooks</h5>
+            <a>Books, art<br />& collectibles</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>ACX</h5>
+            <a>Audiobook<br />Publishing<br />Made Easy</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Sell on Amazon</h5>
+            <a>Start a Selling<br />Account</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Veeqo</h5>
+            <a>Shipping Software<br />Inventory<br />Management</a>
+          </ul>
+        </div>
+
+        <div class="services">
+          <ul class="services-content">
+            <h5>Amazon Business</h5>
+            <a>Everything For<br />Your Business</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>AmazonGlobal</h5>
+            <a>Ship Orders<br />Internationally</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Amazon Web<br />Services</h5>
+            <a>Scalable Cloud<br />Computing<br />Services</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Audible</h5>
+            <a>Listen to Books &<br />Original<br />Audio<br />Performances</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Box Office Mojo</h5>
+            <a>Find Movie<br />Box Office Data</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Goodreads</h5>
+            <a>Book reviews<br />&<br />recommendations</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>IMDb</h5>
+            <a>Movies, TV<br />& Celebrities</a>
+          </ul>
+        </div>
+
+        <div class="services">
+          <ul class="services-content">
+            <h5>IMDbPro</h5>
+            <a>Get Info<br />Entertainment<br />Professionals Need</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Kindle Direct<br />Publishing</h5>
+            <a>Indie Digital &<br />Print Publishing<br />Made Easy</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Prime Video Direct</h5>
+            <a>Video Distribution<br />Made Easy</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Shopbop</h5>
+            <a>Designer<br />Fashion Brands</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Woot!</h5>
+            <a>Deals and<br />Shenanigans</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Zappos!</h5>
+            <a>Shoes &<br />Clothing</a>
+          </ul>
+        </div>
+        <div class="services">
+          <ul class="services-content">
+            <h5>Ring</h5>
+            <a>Smart Home<br />Security Systems</a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="foot-panel5">
+        <div class="disclosure">
+          <a>Conditions of Use</a>
+          <a>Privacy Notice</a>
+          <a>Consumer Health Data Privacy Disclosure</a>
+          <a>Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">
+          <p>&copy 1996-2025, Amazon.com, Inc. or its affiliates</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
