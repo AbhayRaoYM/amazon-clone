@@ -4,7 +4,7 @@ This project focuses on replicating Amazon’s layout and styling to practice re
 
 ---
 
-##✨ Features
+## ✨ Features
 
 🖥️ Responsive Design – Works seamlessly across desktop, tablet, and mobile.
 
@@ -16,7 +16,7 @@ This project focuses on replicating Amazon’s layout and styling to practice re
 
 ---
 
-##📚 Tech Stack
+## 📚 Tech Stack
 
 - HTML5 – Structure
 
