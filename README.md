@@ -2,7 +2,9 @@
 A front-end prototype of the Amazon website built with HTML, CSS, and JavaScript.
 This project focuses on replicating Amazon’s layout and styling to practice responsive web design and UI development.
 
-✨ Features
+---
+
+##✨ Features
 
 🖥️ Responsive Design – Works seamlessly across desktop, tablet, and mobile.
 
@@ -12,10 +14,12 @@ This project focuses on replicating Amazon’s layout and styling to practice re
 
 🧩 Clean Code – Organized structure for easy learning and customization.
 
-📚 Tech Stack
+---
 
---HTML5 – Structure
+##📚 Tech Stack
 
---CSS3 – Styling & layout
+-HTML5 – Structure
 
---JavaScript (ES6+) – For basic interactivity (future expansion will be done)
+-CSS3 – Styling & layout
+
+-JavaScript (ES6+) – For basic interactivity (future expansion will be done)
