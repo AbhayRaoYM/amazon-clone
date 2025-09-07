@@ -18,8 +18,8 @@ This project focuses on replicating Amazon’s layout and styling to practice re
 
 ##📚 Tech Stack
 
--HTML5 – Structure
+- HTML5 – Structure
 
--CSS3 – Styling & layout
+- CSS3 – Styling & layout
 
--JavaScript (ES6+) – For basic interactivity (future expansion will be done)
+- JavaScript (ES6+) – For basic interactivity (future expansion will be done)
